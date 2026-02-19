@@ -1,11 +1,12 @@
 {
   "name": "node-js",
-  "type": "commonjs",
+  "type": "module",
   "version": "1.0.0",
   "description": "",
   "main": "index1.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index1.js"
   },
   "keywords": [],
   "author": "",
