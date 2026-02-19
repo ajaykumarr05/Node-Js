@@ -9,12 +9,12 @@ app.get("/:id",(req,res)=>{
     console.log(req.params);
     console.log(req.params.id);
 });
-app.get("/:id/:email",(req,res)=>{
+app.get("/:id1/:id2",(req,res)=>{
     console.log(req.url);
     console.log(req.params);
-    res.send(req.params.id+req.params.email);
+    res.send(req.params.id+req.params.id2);
 });
-app.get("/id/:id/email/:email",(req,res)=>{
+app.get("/id1/:id2/email1/:email2",(req,res)=>{
     console.log(req.url);
     console.log(req.params);
     res.send(req.params.id+req.params.email);
